@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set 2</title>
+</head>
+<body>
+    
+    <!-- one -->
+    <h2>logical-1</h2>
+    <h3>calculator</h3>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="text" id="operator" placeholder="Enter operator (+, -, *, /)">
+    <input type="number" id="num2" placeholder="Enter second number">  
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p> 
+
+    <!-- two -->
+    <h2>logical-2</h2>
+    <p id="quote">The javascript code is very easy</p> 
+    <button onclick="generateQuote()">Generate Quote</button>
+    
+    <!-- Three -->
+    <h2>logical-3</h2>
+    <input type="text" id="name" placeholder="Enter your name"> 
+    <input type="email" id="email" placeholder="Enter your email"> 
+    <button onclick="validateForm()">Submit</button> 
+    <p id="error"></p> 
+
+    <!-- four -->
+    <h2>logical-4</h2>
+    <p id="sentence">Type the sentence below:</p> 
+    <p id="randomSentence">The quick brown fox jumps over the lazy dog.</p> 
+    <textarea id="userInput" oninput="calculateTypingSpeed()"></textarea> 
+    <p id="typingSpeed"></p> 
+
+
+    <!-- five -->
+    <h2>logical-5</h2>
+    <input type="password" id="password" oninput="checkPasswordStrength()"> 
+    <p id="passwordStrength"></p> 
+
+
+    <!-- six -->
+    <h2>logical-6</h2>
+    <div class="image-slider"> 
+        <img src="./n.jpg" id="current-image"> 
+        <img src="./f.jpg" id="current-image"> 
+        <img src="./s.jpg" id="current-image"> 
+    </div> 
+    <button id="pre-slide">Previous</button> 
+    <button id="next-slide">Next</button> 
+    <!-- <button onclick="toggleAutoPlay()">Toggle Auto-play</button>  -->
+
+    <!-- seven -->
+    <h2>logical-7</h2>
+    <button onclick="scrollToTop()">Scroll to Top</button> 
+    
+    <!-- nine -->
+    <h2>logical-9</h2>
+    <table id="myTable" border="1"> 
+        <tr><td>Row1 cell1</td> 
+            <td>Row1 cell2</td></tr> 
+            <tr><td>Row2 cell1</td> 
+                <td>Row2 cell2</td></tr> 
+                <tr><td>Row3 cell1</td> 
+                    <td>Row3 cell2</td></tr> 
+                </table> 
+                <form> 
+                    <input type="button" onclick="changeContent()" value="Change content"> 
+                </form> 
+<script src="./script.js"></script>
+</body>
+</html>
+
